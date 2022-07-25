@@ -12,7 +12,7 @@ let videos = [{
     video: "1ROGXOdzlWnzRuOs-CjaJ0lMmg-j299cJ"
 }, {
     title: "Set Game Specifications",
-    video: "16_8wzMobA9BlMUgCbSMXE29u1O8vBGBj"
+    video: "1-1br0DHcgtWkZ3eY6r-bcHlRxq5OzJv8"
 }, {
     title: "Start a Game",
     video: "1UC3mbTytbDhaEK__V4PSVEmo-LqHZUDk"
