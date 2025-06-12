@@ -8,3 +8,4 @@ assets/**
 .expo-shared
 .prettirrc
 .eslintrc.js
+out/
