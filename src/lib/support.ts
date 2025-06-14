@@ -58,6 +58,22 @@ export const supportArticles = [
     content:
       "**Low IntelliCoaching:** Equal playing time, but if play time must be unequal then additional periods are given to your highest ranking players. Substitutions may not appear completely rotation-based, as this mode calculates in terms of the rest of the game. This is the **best** option for coaches who want to prioritize equal playing time but also want to field strong lineups.\n\n**High IntelliCoaching:** All players will play at least half the game, but there will be a larger discrepancy in playtime between your highest and lowest ranked players. This setting is best for coaches who want to field the most competitive lineups possible.\n\n**Off:** Completely equal playing time on a rotation-based system. First off, first on. Lineups will not be as strong since this mode simply rotates based on playtime, not ranking.\n> High and Low IntelliCoaching levels are only available to premium users. You can purchase premium for $0.99 USD/month in the app. Thanks for supporting intelli.coach!",
   },
+  {
+    id: "terms",
+    title: "Terms of Service",
+    category: "Legal",
+    shortDescription: "Read our terms of service",
+    content:
+      "intelli.coach LLC does not promise that intelli.coach will be error-free or provide specific results. You assume total responsibility for your use of intelli.coach. Your sole remedy against intelli.coach LLC for dissatisfaction with the app or any content is to stop using the app.\n\nThe above disclaimer applies to any damages, liability or injuries, whether physical, financial, or other, caused by any failure of performance, error, interruption, or use, for any cause of action.\n\nintelli.coach LLC will not be liable to you for any indirect, consequential, exemplary, incidental or punitive damages, including lost profits.\n\nintelli.coach LLC handles data in accordance with our privacy policy.\n\nBy using intelli.coach, you agree to these terms. The terms of use are subject to change at any time.\n\nQuestions about the terms of use should be directed to [support@intellicoach.tech](mailto:support@intellicoach.tech).",
+  },
+  {
+    id: "privacy",
+    title: "Privacy Policy",
+    category: "Legal",
+    shortDescription: "Read our privacy policy",
+    content:
+      "All data stored and used by intelli.coach is stored exclusively on the user's device. intelli.coach LLC has no access to personal information, nor information entered into the app.\n\nData used for in-app purchases is handled by the respective app store provider (Apple or Google) and RevenueCat. intelli.coach LLC does not directly process data pertaining to in-app purchases. Please refer to their privacy policies for information about their data handling practices.\n\nBy using intelli.coach, you agree to this policy. The privacy policy is subject to change at any time.\n\nQuestions about this privacy policy or specific requests surrounding personal data should be directed to [support@intellicoach.tech](mailto:support@intellicoach.tech).",
+  },
 ];
 
-export const supportCategories = ["Basics", "FAQ"];
+export const supportCategories = ["Basics", "FAQ", "Legal"];
