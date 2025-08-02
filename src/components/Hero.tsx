@@ -24,6 +24,7 @@ export default function Hero() {
             alt="intelli.coach Logo"
             width={150}
             height={150}
+            priority
             className="mx-auto lg:mx-0 mb-8 rounded-md shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300"
           />
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-cyan-200 bg-clip-text text-transparent">
@@ -44,6 +45,7 @@ export default function Hero() {
                 alt="intelli.coach App Screenshot"
                 width={250}
                 height={500}
+                priority
                 className="rounded-3xl shadow-2xl transform hover:scale-105 transition-all duration-300"
               />
             </div>
@@ -97,6 +99,7 @@ export default function Hero() {
               alt="intelli.coach App Screenshot"
               width={300}
               height={600}
+              priority
               className="rounded-3xl shadow-2xl transform hover:scale-105 transition-all duration-300"
             />
           </div>
