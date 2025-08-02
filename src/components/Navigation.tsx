@@ -46,7 +46,7 @@ export default function Navigation() {
           >
             {(isScrolled || !isHomePage) && (
               <Image
-                src="/logoFull.png"
+                src="/logoFull.webp"
                 alt="intelli.coach"
                 height={50}
                 width={175}

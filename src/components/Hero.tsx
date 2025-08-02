@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="container mx-auto px-6 relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12 max-w-7xl">
         <div className="flex-1 text-center lg:text-left text-white lg:max-w-3xl mt-12 lg:mt-0">
           <Image
-            src="/icon.png"
+            src="/icon.webp"
             alt="intelli.coach Logo"
             width={150}
             height={150}
@@ -40,7 +40,7 @@ export default function Hero() {
           <div className="lg:hidden flex justify-center mt-8 mb-8">
             <div className="relative">
               <Image
-                src="/screenshot.png"
+                src="/screenshot.webp"
                 alt="intelli.coach App Screenshot"
                 width={250}
                 height={500}
@@ -89,7 +89,7 @@ export default function Hero() {
         <div className="hidden lg:flex flex-1 justify-center lg:justify-end max-w-md">
           <div className="relative">
             <Image
-              src="/screenshot.png"
+              src="/screenshot.webp"
               alt="intelli.coach App Screenshot"
               width={300}
               height={600}
