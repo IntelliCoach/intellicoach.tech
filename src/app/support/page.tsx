@@ -49,12 +49,16 @@ export default async function SupportPage({ params }: { params: Props }) {
                 <a
                   href={IOS_LINK}
                   className="block text-blue-600 hover:text-blue-800 flex items-center gap-2"
+                  target="_blank"
+                  rel="noopener"
                 >
                   <CheckCircle className="w-4 h-4" />
                   App Store Page
                 </a>
                 <a
                   href={ANDROID_LINK}
+                  target="_blank"
+                  rel="noopener"
                   className="block text-blue-600 hover:text-blue-800 flex items-center gap-2"
                 >
                   <CheckCircle className="w-4 h-4" />

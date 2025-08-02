@@ -52,6 +52,8 @@ export default function Footer() {
             {[DeviceType.IOS, DeviceType.OTHER].includes(deviceType) && (
               <a
                 href={IOS_LINK}
+                target="_blank"
+                rel="noopener"
                 className="inline-block bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition-colors mr-2 mb-2"
               >
                 Download for iOS
@@ -60,6 +62,8 @@ export default function Footer() {
             {[DeviceType.ANDROID, DeviceType.OTHER].includes(deviceType) && (
               <a
                 href={ANDROID_LINK}
+                target="_blank"
+                rel="noopener"
                 className="inline-block bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition-colors"
               >
                 Download for Android

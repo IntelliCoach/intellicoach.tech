@@ -53,6 +53,8 @@ export default function Hero() {
             {[DeviceType.IOS, DeviceType.OTHER].includes(deviceType) && (
               <a
                 href={IOS_LINK}
+                target="_blank"
+                rel="noopener"
                 className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-cyan-50 transform hover:scale-105 transition-all duration-300 shadow-2xl flex items-center gap-3"
                 style={{ color: "#1093c8" }}
               >
@@ -63,6 +65,8 @@ export default function Hero() {
             {[DeviceType.ANDROID, DeviceType.OTHER].includes(deviceType) && (
               <a
                 href={ANDROID_LINK}
+                target="_blank"
+                rel="noopener"
                 className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-cyan-50 transform hover:scale-105 transition-all duration-300 shadow-2xl flex items-center gap-3"
                 style={{ color: "#1093c8" }}
               >

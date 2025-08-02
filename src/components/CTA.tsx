@@ -20,6 +20,8 @@ export default function CTA() {
         {[DeviceType.IOS, DeviceType.OTHER].includes(deviceType) && (
           <a
             href={IOS_LINK}
+            target="_blank"
+            rel="noopener"
             className={
               "bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-12 py-6 rounded-full font-semibold text-xl hover:from-cyan-600 hover:to-blue-700 transform hover:scale-105 transition-all duration-300 shadow-2xl inline-flex items-center gap-3" +
               (deviceType === DeviceType.OTHER ? " mr-4" : "")
@@ -48,6 +50,8 @@ export default function CTA() {
         {[DeviceType.ANDROID, DeviceType.OTHER].includes(deviceType) && (
           <a
             href={ANDROID_LINK}
+            target="_blank"
+            rel="noopener"
             className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-12 py-6 rounded-full font-semibold text-xl hover:from-cyan-600 hover:to-blue-700 transform hover:scale-105 transition-all duration-300 shadow-2xl inline-flex items-center gap-3"
             style={
               {
