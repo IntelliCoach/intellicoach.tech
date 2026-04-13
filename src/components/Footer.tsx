@@ -5,6 +5,7 @@ import Link from "next/link";
 export default function Footer() {
   let deviceType = getDeviceType();
   if (!deviceType) deviceType = DeviceType.OTHER; // Fallback for SSR or undefined
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-6">
@@ -72,7 +73,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 intelli.coach. All rights reserved.</p>
+          <p>&copy; {currentYear} intelli.coach. All rights reserved.</p>
         </div>
       </div>
     </footer>
